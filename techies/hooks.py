@@ -5,6 +5,7 @@ app_description = "something we dont know"
 app_email = "sagardbs8121@gmail.com"
 app_license = "mit"
 
+on_session_creation = ["techies.api.auth_api.on_session_creation"]
 # Apps
 # ------------------
 
