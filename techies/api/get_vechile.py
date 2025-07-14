@@ -14,7 +14,7 @@ def get_vehicle_info(user):
     )
 
     if not vehicle_data:
-        return {"message": "No vehicle information found for this user."}
+        return {"message": "No vehicle information found for this users."}
 
     return {"vehicles": vehicle_data, "message": "Vehicle information retrieved successfully."}
 
